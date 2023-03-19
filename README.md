@@ -1,16 +1,17 @@
 # Innovation_project
-A React framework for musician School works Non for profit
+A React framework based web application for musician School workers (Non for profit)
 
 #how to use
 
 
-git clone https://github.com/lucas-project/Innovation_project.git
+git clone 
 cd Innovation_project
-#前端启动
+#please choose your node version carefully
+#front end start
 cd client
 npm i
 npm start
-#后端启动
+#back end start
 cd server
 npm i
 npm start
