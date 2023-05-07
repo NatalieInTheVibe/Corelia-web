@@ -1,8 +1,10 @@
 # Innovation_project
-A React framework based web application for musician School workers (Non for profit)
+A React framework based web application for female musician performer workers (Non for profit).
+
+ReactJS | ExpressJS | Mongoose
+
 
 #how to use
-
 
 git clone 
 cd Innovation_project
