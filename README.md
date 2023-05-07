@@ -6,11 +6,14 @@ A React framework based web application for musician School workers (Non for pro
 
 git clone 
 cd Innovation_project
+
 #please choose your node version carefully
+
 #front end start
 cd client
 npm i
 npm start
+
 #back end start
 cd server
 npm i
