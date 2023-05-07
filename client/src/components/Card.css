@@ -1,0 +1,10 @@
+.card {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(202, 202, 202);
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px;
+}

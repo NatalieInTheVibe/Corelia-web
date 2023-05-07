@@ -1,0 +1,170 @@
+
+.albums-container {
+    width: 900px;
+    /*margin: auto;*/
+    display: grid;
+    grid-template-columns: repeat(4, 37%);
+    column-gap: 1%;
+    padding-top: 100px;
+    column-gap: 2%;
+    row-gap: 25px;
+}
+
+.albums-card {
+    min-height: 150px;
+}
+
+.loading {
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading p {
+    animation-name: loadingColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadingColor {
+    0% {
+        font-weight: 200;
+        font-size: 30px;
+        color: rgb(16, 148, 141);
+    }
+    100% {
+        font-weight: 300;
+        font-size: 35px;
+        color: white;
+    }
+}
+
+.page-title-message {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.page-title-message span {
+    color: rgb(16, 148, 141);
+}
+
+.items-container {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 20% 20% 25% 20% 20% 20%;
+    column-gap: 5%;
+    row-gap: 25px;
+}
+
+.controller-button-container {
+    width: 800px;
+    margin: auto;
+}
+
+.controller-button {
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-right: 5px;
+    background: white;
+    display: inline-block;
+}
+
+.controller-button:hover {
+    color: white;
+    background: rgb(16, 148, 141);
+    border: 1px solid rgb(16, 148, 141);
+}
+
+.controller-button:active {
+    color: black;
+    background: white;
+}
+
+.item-container {
+    width: 840px;
+    height: auto;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .item-content-container {
+  width: 730px;
+  margin-top: 25px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.item-container img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item-container h1 {
+    font-size: 50px;
+    color: rgb(16, 148, 141);
+
+    margin-right: 20px;
+}
+
+.item-container div {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.offItemButton {
+    font-size: 15px;
+    line-height: 1;
+    width: 26px;
+    height: 26px;
+    border: 1px solid black;
+    border-radius: 13px;
+    background: transparent;
+    align-self: flex-end;
+}
+
+.forwardButton,
+.backwardButton {
+    font-size: 80px;
+    font-weight: 200;
+    color: white;
+    background: transparent;
+    padding: 20px;
+}
+
+.forwardButton:hover,
+.backwardButton:hover {
+    color: rgb(16, 148, 141);
+}
+
+.forwardButton:active,
+.backwardButton:active {
+    color: white;
+}
+
+card {
+    padding: 50px;
+}
+

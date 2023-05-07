@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { Link } from "../styles";
+
+import { Link } from "react-router-dom";
 
 import HomeFooterJoinUsBar from "./home-footer-joinUs-bar";
 
@@ -14,7 +15,10 @@ const HomeFooterJoinUs = () => {
           </p>
         </div>
         <div className='right-content'>
-          <Link href='#'>Join us as composer</Link>
+          <Link
+              to={{pathname:'/api/users/'}}
+
+          ><h3>Join us</h3></Link>
         </div>
       </HomeFooterJoinUsBar>
     </StyledTeachBar>

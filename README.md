@@ -17,3 +17,9 @@ npm i
 npm start
 
 
+#version control
+node.js 16.0.0
+react-router-dom v6
+    use navigate instead of history
+
+

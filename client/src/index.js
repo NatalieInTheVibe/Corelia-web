@@ -3,15 +3,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-
+import "./components/styles.css";
 
 // eslint-disable-next-line
-// import "swiper/css/bundle";
-import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
 
-import "./components/styles.css";
+
 
 
 ReactDOM.render(

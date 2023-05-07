@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import LogoImg from "../img/Corelia Project_Master Logo_Colour_PNG.png";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,17 +9,35 @@ const Footer = () => {
       <div className='footer-links'>
         <div className='links-left'>
           <div className='main-links'>
-            <a href='#'>About us</a>
-            <a href='#'>Become a composer</a>
+            <Link
+                to={{pathname:'/about'}}
+
+            ><p>About us</p></Link>
+            <Link
+                to={{pathname:'/api/users'}}
+
+            ><p>Become a composer</p></Link>
             <a href='#'>Sponorship</a>
             <a href='#'>Contact us</a>
             <a href='#'>Report an issue</a>
           </div>
           <div className='support-links'>
-            <a href='#'>Repertoire</a>
-            <a href='#'>Composer</a>
-            <a href='#'>Community Forum</a>
-            <a href='#'>Recommendation</a>
+            <Link
+                to={{pathname:'/pieces'}}
+
+            ><p>Repertoires</p></Link>
+            <Link
+                to={{pathname:'/api/composers'}}
+
+            ><p>Composers</p></Link>
+            <Link
+                to={{pathname:'/forum'}}
+
+            ><p>Community Forum</p></Link>
+            <Link
+                to={{pathname:'/recommendation'}}
+
+            ><p>Recommendation</p></Link>
           </div>
           <div className='terms-links'>
             <a href='#'>Terms</a>
